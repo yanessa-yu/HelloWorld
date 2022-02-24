@@ -22,7 +22,7 @@ export default {
   methods: {
     sendRequest(){
       const xhr = new XMLHttpRequest()
-      xhr.open('GET', "../assets/test.json")
+      xhr.open('GET', "/test.json")
       xhr.onload = function(res){
         console.log(res)
       }
